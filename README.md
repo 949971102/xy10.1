@@ -10,7 +10,7 @@
 <li>
  <a href="{{ test.content.link }}" >
     <h3>{{ test.title}}</h3>
-    <img src="{{ test.content.img }} " alt="{{ test.title}">
+    <img src="{{ test.content.img }} " alt="{{ test.title}}">
     <h4>{{ test.content.summary |truncate(200,'...') }} </h4>
     <h5>{{ test.content.content | raw }}</h5>
  </a>
