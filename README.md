@@ -205,7 +205,7 @@
 
 <li class="news_list"> 
     <a href="{{ value.url }}">
-        <img src="{{ app('content').thumb(value.uploadfiles[0],400,400) }}" alt="{{ value.title }}">
+        <img src="{{ app('content').thumb(value.uploadfiles,400,400) }}" alt="{{ value.title }}">
         <h3>{{ value.title }}</h3>
         <h4>{{ value.description }} </h4>
         <h5>{{ value.summary }}</h5>
